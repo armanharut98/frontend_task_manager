@@ -1,0 +1,21 @@
+.tasks-column{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    max-width: 300px !important;
+}
+.task-column.label{
+    position: absolute;
+    top: -60px;
+    font-size: 30px;
+    font-weight: 600;
+}
+/* for further design */
+
+/* .tasks-column.inprogress{
+    background: rgb(255, 0, 0) !important; 
+}
+.tasks-column.done{
+    background: rgb(0, 253, 0) !important;
+} */
+

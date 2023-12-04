@@ -1,0 +1,14 @@
+.projectform__container{
+  display: flex;
+  max-width: 530px;
+  width: 100%;
+  flex-direction: row;
+}
+.projectform_form {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content:space-between;
+  align-items: center;
+  
+}

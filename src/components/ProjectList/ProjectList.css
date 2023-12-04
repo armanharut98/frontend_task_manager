@@ -1,0 +1,10 @@
+.project_list__container{
+    width: 100% !important;
+}
+
+.arrow_back{
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    cursor: pointer;
+}

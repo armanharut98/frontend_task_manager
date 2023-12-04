@@ -1,0 +1,48 @@
+.project_item__container {
+  max-width: 700px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  cursor: pointer;
+}
+
+.icons__container > i {
+  margin-left: 10px;
+  opacity: 0.3;
+  cursor: pointer;
+}
+
+.icons__container > i:hover {
+  opacity: 0.1;
+}
+
+.project_edit_form__container {
+  max-width:300px;
+  width: 100%;
+  font-size: 16px;
+}
+
+.project_edit_form__container > input{
+  width: 100%;
+}
+
+.date__container{
+  position: absolute;
+  max-width: 400px;
+  z-index: -1;
+  max-height: 30px;
+  margin: 0;
+  padding: 2px;
+  box-shadow: 0 3px 6px rgb(0 0 0 / 0.2);
+  border-radius: 4px;
+  bottom: 0;
+  transition: 0.3s ease-in-out;
+  left: 0;
+}
+
+.project_item:hover .date__container{
+  background-color: white;
+  bottom: -23px;
+  display: block;
+}

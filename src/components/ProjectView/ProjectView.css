@@ -1,0 +1,14 @@
+.project_tasks__container {
+  display: flex;
+  flex-direction: row;
+  margin: 0 auto;
+  max-width: 1200px;
+  margin-top: 100px;
+  width: 100% !important;
+  justify-content: space-between;
+}
+
+.project_tasks__container > .card__container{
+  margin-right: 10px;
+}
+
